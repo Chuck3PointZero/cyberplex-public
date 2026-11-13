@@ -1,0 +1,381 @@
+{
+  "lockfileVersion": 1,
+  "nodes": {
+    "file://./agents/architect": {
+      "kind": "agent",
+      "resolved": "file://./agents/architect",
+      "integrity": "sha256-AABq9iMGkVxF7UfsIKVc4aOaYxMCRsc15Ruy8Y1Iwe8=",
+      "requires": [
+        "../../roles/principal-architect"
+      ]
+    },
+    "file://./roles/principal-architect": {
+      "kind": "role",
+      "resolved": "file://./roles/principal-architect",
+      "integrity": "sha256-NRweKavlWf5kwNM83Xc6V175WAXhVTiXJ5006ZQj03k=",
+      "requires": [
+        "../../skills/tech-debt-triage",
+        "../../skills/adr-tracking",
+        "../../skills/decision-brief",
+        "../../skills/team-inbox",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/tech-debt-triage": {
+      "kind": "skill",
+      "resolved": "file://./skills/tech-debt-triage",
+      "integrity": "sha256-kb8SFT+V4YizlgZsm1GmTRPDDQsi5F8d+JQVyjyEMbM=",
+      "requires": [
+        "../../tools/github-read/TOOL.md",
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./skills/adr-tracking": {
+      "kind": "skill",
+      "resolved": "file://./skills/adr-tracking",
+      "integrity": "sha256-QMvMwYjrGTEarjBUrDt7k6JkWR8/HHSHfqlaJezuMnw=",
+      "requires": [
+        "../../tools/github-read/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./skills/decision-brief": {
+      "kind": "skill",
+      "resolved": "file://./skills/decision-brief",
+      "integrity": "sha256-y0eJF1X3H/5Q32kb9TclZ2Wz8r7QiJWyhr+PkRZRpCg=",
+      "requires": [
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./skills/team-inbox": {
+      "kind": "skill",
+      "resolved": "file://./skills/team-inbox",
+      "integrity": "sha256-eHRQe8B45n9/Ut/3BwG3afQXcrVJFu1X8zixdEeG6rE=",
+      "requires": [
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./skills/space-sync": {
+      "kind": "skill",
+      "resolved": "file://./skills/space-sync",
+      "integrity": "sha256-Fvd9hbXLM592P6/kZDbrDSzzvGn59KNUlqVt6dSw3e4=",
+      "requires": [
+        "../../tools/collab-space/TOOL.md"
+      ]
+    },
+    "file://./tools/github-read": {
+      "kind": "tool",
+      "resolved": "file://./tools/github-read",
+      "integrity": "sha256-Lg387TkAdCBTp0UN5Kh135vA7kHBdBAyxGUCFvHqmhQ=",
+      "requires": []
+    },
+    "file://./tools/issue-reader": {
+      "kind": "tool",
+      "resolved": "file://./tools/issue-reader",
+      "integrity": "sha256-Iig0Elvb+5fiB2ZRba57rzpHIreuNxUK20PGJyilIGA=",
+      "requires": []
+    },
+    "file://./tools/oaa-ontology": {
+      "kind": "tool",
+      "resolved": "file://./tools/oaa-ontology",
+      "integrity": "sha256-dmU8eFlkmFMc2w0PKK+9VeN/bgQDpb+FWXPbdI76nzc=",
+      "requires": []
+    },
+    "file://./tools/team-channel": {
+      "kind": "tool",
+      "resolved": "file://./tools/team-channel",
+      "integrity": "sha256-jk88zyMgjFFkIqaBuOwIYQDxV67AoD3/H25CRgHe85w=",
+      "requires": []
+    },
+    "file://./tools/collab-space": {
+      "kind": "tool",
+      "resolved": "file://./tools/collab-space",
+      "integrity": "sha256-1IKwjsBRY3R/SeHCdbsiy1649sbiv7hyIlB+d2CJLd8=",
+      "requires": []
+    },
+    "file://./agents/deploy-sentinel": {
+      "kind": "agent",
+      "resolved": "file://./agents/deploy-sentinel",
+      "integrity": "sha256-h8h+PEcP7vVsaMvbnbveCdScgKmbkcDT+/WPAv9mT+8=",
+      "requires": [
+        "../../roles/deploy-watch"
+      ]
+    },
+    "file://./roles/deploy-watch": {
+      "kind": "role",
+      "resolved": "file://./roles/deploy-watch",
+      "integrity": "sha256-TCdiqWxyIy7kH6ZdXsOC8jVXocyqOEqyXsN9Cc4zRSY=",
+      "requires": [
+        "../../skills/watch-deploy-health"
+      ]
+    },
+    "file://./skills/watch-deploy-health": {
+      "kind": "skill",
+      "resolved": "file://./skills/watch-deploy-health",
+      "integrity": "sha256-0gm8CStxGXa7uq5xoZlAthZBrVqZ5f9+t9e/m0ze+84=",
+      "requires": [
+        "../../tools/github-read/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md",
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./agents/eng-director": {
+      "kind": "agent",
+      "resolved": "file://./agents/eng-director",
+      "integrity": "sha256-kmx1q0NQDW8GktCa3Fm00tDT4xgOUsxJJ08SzG5jFrE=",
+      "requires": [
+        "../../roles/director-of-engineering"
+      ]
+    },
+    "file://./roles/director-of-engineering": {
+      "kind": "role",
+      "resolved": "file://./roles/director-of-engineering",
+      "integrity": "sha256-6ZH57O0nf+hh5mcs44A+0U7Q7u7Q0vGwbRCrlm0FM+E=",
+      "requires": [
+        "../../skills/delivery-report",
+        "../../skills/team-inbox",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/delivery-report": {
+      "kind": "skill",
+      "resolved": "file://./skills/delivery-report",
+      "integrity": "sha256-9OgNxm5knND0YdWT8a99zPqBUC/nGXPh+rh6TDHVqWE=",
+      "requires": [
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/github-read/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./agents/finops-lead": {
+      "kind": "agent",
+      "resolved": "file://./agents/finops-lead",
+      "integrity": "sha256-Cbo9LBgMrP78Q8DpAMsboHQsP8UXFsXLX+DQBBrYlW8=",
+      "requires": [
+        "../../roles/finops-manager"
+      ]
+    },
+    "file://./roles/finops-manager": {
+      "kind": "role",
+      "resolved": "file://./roles/finops-manager",
+      "integrity": "sha256-UJ3Iexerri7tfTCosgGfMw/DaG8YqifRpkmmeVEG7ZQ=",
+      "requires": [
+        "../../skills/scenario-modeling",
+        "../../skills/team-inbox",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/scenario-modeling": {
+      "kind": "skill",
+      "resolved": "file://./skills/scenario-modeling",
+      "integrity": "sha256-6CxiloBtXOUB/cQ32xBRk7b5sA86hAFyvrFb8NyplU8=",
+      "requires": [
+        "../../tools/spend-ledger/TOOL.md"
+      ]
+    },
+    "file://./tools/spend-ledger": {
+      "kind": "tool",
+      "resolved": "file://./tools/spend-ledger",
+      "integrity": "sha256-BALFgGha9eczb5ejEghWorc8OG4mc9wFuHWp+vKICLc=",
+      "requires": []
+    },
+    "file://./agents/operations-manager": {
+      "kind": "agent",
+      "resolved": "file://./agents/operations-manager",
+      "integrity": "sha256-WMQmCeCL+puOc1Cs05K68SqoQQBTbQwvDxyRNtYbgto=",
+      "requires": [
+        "../../roles/operations-manager"
+      ]
+    },
+    "file://./roles/operations-manager": {
+      "kind": "role",
+      "resolved": "file://./roles/operations-manager",
+      "integrity": "sha256-Jv+qsX64D/63deeL1rY/o+6VLZsl+kwF3CsAkev+s64=",
+      "requires": [
+        "../../skills/operations-report",
+        "../../skills/team-inbox",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/operations-report": {
+      "kind": "skill",
+      "resolved": "file://./skills/operations-report",
+      "integrity": "sha256-sTGw45Gu3OfPYqyonBcnKuGlWDXyBNMFHNQZu7JObtI=",
+      "requires": [
+        "../../tools/oaa-ontology/TOOL.md",
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./agents/program-manager": {
+      "kind": "agent",
+      "resolved": "file://./agents/program-manager",
+      "integrity": "sha256-peWPW8ZHV8qWRWSHmZaJFZLd8WHUB1OG6cF4MfMqNCw=",
+      "requires": [
+        "../../roles/engineering-program-manager"
+      ]
+    },
+    "file://./roles/engineering-program-manager": {
+      "kind": "role",
+      "resolved": "file://./roles/engineering-program-manager",
+      "integrity": "sha256-EifNP2awY9Sfexj1VFEXaBQv4Jp26Mi5dCWm/MWkyFw=",
+      "requires": [
+        "../../skills/task-decomposition",
+        "../../skills/team-sync",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/task-decomposition": {
+      "kind": "skill",
+      "resolved": "file://./skills/task-decomposition",
+      "integrity": "sha256-+UbRYzuzD8RYDvqs34Cy32wBG/KGSkfnoUQgsgvyXuk=",
+      "requires": [
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md",
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./skills/team-sync": {
+      "kind": "skill",
+      "resolved": "file://./skills/team-sync",
+      "integrity": "sha256-p1/uWEEyDzZ5I1FS5RIOeMsLsY5OzgEfLDpqMnu/+ZY=",
+      "requires": [
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./agents/security-lead": {
+      "kind": "agent",
+      "resolved": "file://./agents/security-lead",
+      "integrity": "sha256-eOQxctfb6WkGnYmxPdjzKmBWsH/yyQAYRjWwZ0adR7k=",
+      "requires": [
+        "../../roles/head-of-security-and-reliability"
+      ]
+    },
+    "file://./roles/head-of-security-and-reliability": {
+      "kind": "role",
+      "resolved": "file://./roles/head-of-security-and-reliability",
+      "integrity": "sha256-ChiAp1+2XyYRWxaUJefgA+ejlTjS0NZqCyNn49TC3gw=",
+      "requires": [
+        "../../skills/vulnerability-review",
+        "../../skills/team-inbox",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/vulnerability-review": {
+      "kind": "skill",
+      "resolved": "file://./skills/vulnerability-review",
+      "integrity": "sha256-QnMvgwyRNCLGVAX3hTya5iARFYB1/6D9zajGfhsf4lI=",
+      "requires": [
+        "../../tools/github-read/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./agents/software-engineer": {
+      "kind": "agent",
+      "resolved": "file://./agents/software-engineer",
+      "integrity": "sha256-IVRTH7OdDWa3sqRtYFbNICA5JzVyIAu6mBR7Bf+4x4w=",
+      "requires": [
+        "../../roles/software-engineer"
+      ]
+    },
+    "file://./roles/software-engineer": {
+      "kind": "role",
+      "resolved": "file://./roles/software-engineer",
+      "integrity": "sha256-V8La7eI0o5JUBvbHhu6AqZDGdsqzVJDTVWE/IgEDpLE=",
+      "requires": [
+        "../../skills/implement-approved-work"
+      ]
+    },
+    "file://./skills/implement-approved-work": {
+      "kind": "skill",
+      "resolved": "file://./skills/implement-approved-work",
+      "integrity": "sha256-assliY3LkrtM73P4rNUwpI2xQjVaVzxuA4MXqZO4MTg=",
+      "requires": [
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/github-read/TOOL.md",
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./agents/team-dispatcher": {
+      "kind": "agent",
+      "resolved": "file://./agents/team-dispatcher",
+      "integrity": "sha256-R6C69HpB7hjo30ZoTe2FUsL39ksqNX9wWpEPZQboYgE=",
+      "requires": [
+        "../../roles/work-dispatch"
+      ]
+    },
+    "file://./roles/work-dispatch": {
+      "kind": "role",
+      "resolved": "file://./roles/work-dispatch",
+      "integrity": "sha256-8G27dbocZNOp4wyt79cfiNU+ZaHT9IHbH5l8ylMZha0=",
+      "requires": [
+        "../../skills/dispatch-pending-work"
+      ]
+    },
+    "file://./skills/dispatch-pending-work": {
+      "kind": "skill",
+      "resolved": "file://./skills/dispatch-pending-work",
+      "integrity": "sha256-3r8DW3sux8LJkSUsVAQeZ0D5CrTrASFtpRdNUTxkVp8=",
+      "requires": [
+        "../../tools/team-channel/TOOL.md",
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/access-requests/TOOL.md",
+        "../../tools/collab-space/TOOL.md"
+      ]
+    },
+    "file://./tools/access-requests": {
+      "kind": "tool",
+      "resolved": "file://./tools/access-requests",
+      "integrity": "sha256-F4kcv0mG7prgsr1/gXfS6ogqbzkVVu28FlgNXcfuxu0=",
+      "requires": []
+    },
+    "file://./agents/virtual-cto": {
+      "kind": "agent",
+      "resolved": "file://./agents/virtual-cto",
+      "integrity": "sha256-6nyOVxCE0yzrESQ4IUqd3jvwKIR2/27FTZF3fPMtC/s=",
+      "requires": [
+        "../../roles/chief-technology-officer"
+      ]
+    },
+    "file://./roles/chief-technology-officer": {
+      "kind": "role",
+      "resolved": "file://./roles/chief-technology-officer",
+      "integrity": "sha256-4qKF33edg0jv7U5lF7zs3XJVuYqmB4fL/UlAjCaKR3E=",
+      "requires": [
+        "../../skills/decision-review",
+        "../../skills/roadmap-planning",
+        "../../skills/daily-report",
+        "../../skills/team-sync",
+        "../../skills/space-sync"
+      ]
+    },
+    "file://./skills/decision-review": {
+      "kind": "skill",
+      "resolved": "file://./skills/decision-review",
+      "integrity": "sha256-7OtU1HtZeJtmpYox324JnfGGUmy7La2p90O/rfnhLpk=",
+      "requires": [
+        "../../tools/oaa-ontology/TOOL.md",
+        "../../tools/team-channel/TOOL.md"
+      ]
+    },
+    "file://./skills/roadmap-planning": {
+      "kind": "skill",
+      "resolved": "file://./skills/roadmap-planning",
+      "integrity": "sha256-cdvqzloUOPk9hjB/e/z57ZtCL6sVAg4vjt9UtrGp6T0=",
+      "requires": [
+        "../../tools/issue-reader/TOOL.md",
+        "../../tools/github-read/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    },
+    "file://./skills/daily-report": {
+      "kind": "skill",
+      "resolved": "file://./skills/daily-report",
+      "integrity": "sha256-exY8Q2rqidsbyhZgDZX1grLwc9TteQHCOyylSsTVXuU=",
+      "requires": [
+        "../../tools/team-channel/TOOL.md",
+        "../../tools/oaa-ontology/TOOL.md"
+      ]
+    }
+  }
+}

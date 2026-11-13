@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "github-read": {
+      "command": "python",
+      "args": [
+        "oaa/tools/github-read/server/proxy/proxy.py"
+      ],
+      "env": {
+        "GITHUB_READ_TOKEN": "${GITHUB_READ_TOKEN:-}"
+      }
+    },
+    "oaa-ontology": {
+      "command": "python",
+      "args": [
+        "oaa/tools/oaa-ontology/server/proxy/proxy.py"
+      ],
+      "env": {
+        "OAA_ONTOLOGY_SERVER": "${OAA_ONTOLOGY_SERVER:-}"
+      }
+    }
+  }
+}

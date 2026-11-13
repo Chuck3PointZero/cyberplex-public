@@ -1,0 +1,4 @@
+{
+  "command": "npx",
+  "args": ["--prefix", "runner", "tsx", "oaa/tools/spend-ledger/server/index.ts"]
+}

@@ -1,0 +1,13 @@
+<section id="limits" data-transition="fade" style="background:#EFEDE6;color:#16233B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1">Limits worth knowing before you build on it</h2>
+<table style="font-size:26px;color:#16233B;background:#FFFFFF">
+<tr style="background:#16233B"><th style="width:34%;text-align:left;color:#FAF9F5">Limit</th><th style="width:66%;text-align:left;color:#FAF9F5">What it means</th></tr>
+<tr><td>Owner vs contributor is enforced by the tool</td><td>Cyberplex has one notebook update operation. The tool is the only holder of the key, and it gives each agent only the functions its part allows. Another program holding the same key is not bound by it.</td></tr>
+<tr style="background:#FAF9F5"><td>180 edits per document, for life</td><td>A document holds 50 entries. Write once per run, and retire a space when it nears the limit.</td></tr>
+<tr><td>Nothing notifies anyone</td><td>An agent checks for waiting work when it runs. A small dispatcher script can wake the right agent.</td></tr>
+<tr style="background:#FAF9F5"><td>A claimed task must finish in the same run</td><td>The lease is renewed while the run lasts. When the run ends the claim lapses and the task goes back.</td></tr>
+<tr><td>An approval is not an action</td><td>It records one authorization. Carrying out the action is the agent's job.</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#6B7280">Shared spaces on Cyberplex</p>
+<aside>This slide is the one to read before relying on any of this. The first row is the one that is easy to miss: the split between owner and contributor is a rule of the tool, not of the Cyberplex service. Everything about who can write an accepted entry, who can decide, and who can use an approval is enforced by the service. The owner-versus-contributor split is not. The other rows are limits of the current service and the way agents run in short sessions.</aside>
+</section>

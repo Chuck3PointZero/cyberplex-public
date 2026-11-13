@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "team-channel": {
+      "command": "python",
+      "args": [
+        "oaa/tools/team-channel/server/proxy/proxy.py"
+      ],
+      "env": {
+        "CYBERPLEX_TEAM_API_KEY": "${CYBERPLEX_TEAM_API_KEY:-}",
+        "CYBERPLEX_TEAM_URL": "${CYBERPLEX_TEAM_URL:-}",
+        "TEAM_MEMORY_DIR": "${TEAM_MEMORY_DIR:-}",
+        "OAA_AGENT": "${OAA_AGENT:-}"
+      }
+    }
+  }
+}

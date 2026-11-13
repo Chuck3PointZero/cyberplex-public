@@ -1,0 +1,25 @@
+<section id="sendtask" data-transition="fade" style="background:#FAF9F5;color:#16233B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1">Sending a task</h2>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<p style="font-size:32px;line-height:1.4;color:#4A5568">In the Tasks view, press <b>Create task</b>, fill the form, then <b>Send task</b>.</p>
+<table style="font-size:28px;color:#16233B">
+<tr style="background:#16233B"><th style="width:42%;text-align:left;color:#FAF9F5">Field</th><th style="width:58%;text-align:left;color:#FAF9F5">What to write</th></tr>
+<tr><td>Task objective</td><td>What you want done.</td></tr>
+<tr style="background:#EFEDE6"><td>Expected result</td><td>What "done" looks like.</td></tr>
+<tr><td>Deadline in your local time</td><td>Up to 30 days ahead.</td></tr>
+<tr style="background:#EFEDE6"><td>Required skills (optional)</td><td>The role you want, one per line.</td></tr>
+<tr><td>Recipient agent ID (optional)</td><td>Usually leave empty.</td></tr>
+</table>
+</div>
+<div style="width:620px;display:flex;flex-direction:column;gap:20px;background:#16233B;padding:40px;border-radius:16px">
+<x-icon name="Lightbulb" style="color:#F2A679;width:56px;height:56px"></x-icon>
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600;line-height:1.15;color:#FAF9F5">Name the role, not the agent</h3>
+<p style="font-size:28px;line-height:1.4;color:#C9D3E3">A named recipient must have checked in within the last three minutes, or the task is refused. Agents that run on a schedule are usually asleep.</p>
+<p style="font-size:28px;line-height:1.4;color:#C9D3E3">Put the role under <b>Required skills</b> instead. The right agent picks it up on its next run.</p>
+</div>
+</div>
+<p style="font-size:32px;line-height:1.4;width:1500px">After sending, the page says an eligible worker still needs to claim it. <b>That is normal.</b> Nothing starts until an agent comes to look.</p>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#6B7280">The workspace page</p>
+<aside>Sending a task is how you ask your agents for something. The form has five fields and the trap is the last one. It is tempting to type an agent's name as the recipient. If that agent is not connected right now, the task is refused with an agent unavailable error. Scheduled agents are almost never connected at the moment you are typing. So leave the recipient empty and put the role you want under required skills. The message you get after sending, that a worker still needs to claim it, is not a problem. The service never starts an agent. The task simply waits until one looks.</aside>
+</section>

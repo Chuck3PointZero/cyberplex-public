@@ -1,0 +1,35 @@
+<section id="decisions" data-transition="fade" style="background:#EFEDE6;color:#16233B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1">Deciding an Ask Architect request</h2>
+<div style="display:flex;gap:48px;align-items:stretch">
+<div style="width:820px;display:flex;flex-direction:column;gap:18px;background:#FFFFFF;padding:36px;border:2px solid #16233B;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#C2501A">Review a specific action</p>
+<p style="font-size:24px;color:#6B7280">Exact action</p>
+<p style="font-size:28px;line-height:1.35;background:#FAF9F5;padding:18px;border:1px solid #DDD9CE;border-radius:8px">Rotate the staging database password now.</p>
+<p style="font-size:24px;color:#6B7280">Requested options</p>
+<p style="font-size:28px;line-height:1.35">Rotate now / Wait for the next window</p>
+<p style="font-size:24px;color:#6B7280">Option you reviewed - Decision explanation</p>
+<div style="display:flex;gap:14px">
+<p style="font-size:24px;font-weight:600;color:#FFFFFF;background:#16233B;padding:14px 18px;border-radius:8px">Approve exact action</p>
+<p style="font-size:24px;padding:14px 18px;border:1px solid #16233B;border-radius:8px">Reject request</p>
+<p style="font-size:24px;padding:14px 18px;border:1px solid #16233B;border-radius:8px">Request changes</p>
+</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px;justify-content:center">
+<div style="display:flex;flex-direction:column;gap:6px">
+<h3 style="font-size:32px;font-weight:600">1. Read the exact action and its target</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">You approve these words and nothing else. If the agent changes them, it must ask again.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<h3 style="font-size:32px;font-weight:600">2. Choose an option and say why</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Pick one of the options offered and add a short explanation.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<h3 style="font-size:32px;font-weight:600">3. Press one of the three buttons</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Requests expire, in 7 days at most. An approval can be used once, by the agent that asked.</p>
+</div>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;width:1600px"><b>Approving does not do the thing.</b> The page records your answer. The agent collects it on its next run and then acts.</p>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#6B7280">The workspace page - sketch of the review panel, not a screenshot</p>
+<aside>Ask Architect is the queue of things waiting for you. Each request is one exact action, with a target, some evidence and a short list of options. Open one and you get the review panel sketched on the left. What you approve is the exact text shown; the service ties your answer to it, so an agent cannot get approval for one thing and do another. This is also where the ten-minute rule bites: if your sign-in is older than ten minutes the page asks you to verify your email, and then you open the request and decide again. Last point, and the one people get wrong: pressing Approve does not carry out the action. Your agent has to come back, read the decision, and do it.</aside>
+</section>

@@ -1,0 +1,58 @@
+{
+  "_comment": "Which channels each agent may use on your tenant. The first channel in a list is the agent's main channel (the default for every call); the others are sub-channels it names with the `channel` argument. An agent with no rule of its own gets `default`. Sub-channels share the `team-` prefix so one token can be scoped to the whole family (`team-*`). Read by server/proxy/proxy.py; an agent can never use a channel that is not on its list. owners: ids of people or outside parties whose messages count as from the team (`from_team`), for example a watcher that reads the channel and writes into it.",
+  "default": {
+    "channels": [
+      "team"
+    ]
+  },
+  "agents": {
+    "virtual-cto": {
+      "channels": [
+        "team",
+        "team-security",
+        "team-ops",
+        "team-delivery"
+      ]
+    },
+    "program-manager": {
+      "channels": [
+        "team",
+        "team-delivery"
+      ]
+    },
+    "eng-director": {
+      "channels": [
+        "team",
+        "team-delivery"
+      ]
+    },
+    "software-engineer": {
+      "channels": [
+        "team",
+        "team-delivery"
+      ]
+    },
+    "security-lead": {
+      "channels": [
+        "team",
+        "team-security"
+      ]
+    },
+    "operations-manager": {
+      "channels": [
+        "team",
+        "team-ops",
+        "team-security"
+      ]
+    },
+    "deploy-sentinel": {
+      "channels": [
+        "team",
+        "team-ops"
+      ]
+    }
+  },
+  "owners": [
+    "watcher"
+  ]
+}

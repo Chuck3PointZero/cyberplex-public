@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "oaa-ontology": {
+      "command": "python",
+      "args": [
+        "oaa/tools/oaa-ontology/server/proxy/proxy.py"
+      ],
+      "env": {
+        "OAA_ONTOLOGY_SERVER": "${OAA_ONTOLOGY_SERVER:-}"
+      }
+    }
+  }
+}

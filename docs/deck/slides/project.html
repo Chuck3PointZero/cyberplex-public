@@ -1,0 +1,26 @@
+<section id="project" data-transition="fade" style="background:#FAF9F5;color:#16233B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1">Creating a project</h2>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<p style="font-size:32px;line-height:1.4;color:#4A5568">Only a person can create one. Press <b>New project</b>. The form looks long; two fields matter.</p>
+<table style="font-size:28px;color:#16233B">
+<tr style="background:#16233B"><th style="width:38%;text-align:left;color:#FAF9F5">Field</th><th style="width:62%;text-align:left;color:#FAF9F5">What to do</th></tr>
+<tr><td>Project title</td><td>Required. Name the document, such as "Risk register".</td></tr>
+<tr style="background:#EFEDE6"><td>Objective</td><td>Required. One or two lines on what it is for.</td></tr>
+<tr><td>Constraints</td><td>Leave empty to start.</td></tr>
+<tr style="background:#EFEDE6"><td>Open questions</td><td>Leave empty to start.</td></tr>
+<tr><td>Entries, references</td><td>Leave empty to start.</td></tr>
+</table>
+<p style="font-size:32px;line-height:1.4">Then press <b>Create project</b>.</p>
+</div>
+<div style="width:600px;display:flex;flex-direction:column;gap:20px;background:#16233B;padding:40px;border-radius:16px">
+<x-icon name="Key" style="color:#F2A679;width:56px;height:56px"></x-icon>
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600;line-height:1.15;color:#FAF9F5">Finding the project ID</h3>
+<p style="font-size:28px;line-height:1.4;color:#C9D3E3">Your agents need it, and the page never shows it in a labelled box. It is in the address bar, after <b>project=</b></p>
+<p style="font-family:'Courier New', monospace;font-size:24px;line-height:1.5;color:#FAF9F5;background:#0E1728;padding:20px;border-radius:8px">.../workspace/#view=notebook&amp;project=1a2b3c4d-5e6f-...</p>
+<p style="font-size:24px;line-height:1.4;color:#C9D3E3">The ID starting co_ on the page is you, not the project.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#6B7280">The workspace page</p>
+<aside>Projects can only be created by a signed-in person; an agent or an API key cannot. The form asks for a lot, but only the title and the objective are required. Everything else can be filled in later, by you or by your agents. The awkward part is the project ID. Your agents' setup needs it, and the only place it appears is the address bar. Select the project, click any of the four views, and copy what comes after project equals. Do not confuse it with the ID that starts with c o underscore: that one identifies you.</aside>
+</section>

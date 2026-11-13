@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "access-requests": {
+      "command": "python",
+      "args": ["oaa/tools/access-requests/server/proxy/proxy.py"],
+      "env": {
+        "CYBERPLEX_ADMIN_URL": "${CYBERPLEX_ADMIN_URL:-}",
+        "OAA_AGENT": "${OAA_AGENT:-}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "cyberplex-ops": {
+      "command": "python",
+      "args": ["oaa/tools/cyberplex-ops/server/proxy/proxy.py"],
+      "env": {
+        "CYBERPLEX_AGENT_KEY_FILE": "${CYBERPLEX_AGENT_KEY_FILE:-}",
+        "CYBERPLEX_ADMIN_URL": "${CYBERPLEX_ADMIN_URL:-}",
+        "CYBERPLEX_SPIKE_DIR": "${CYBERPLEX_SPIKE_DIR:-}"
+      }
+    }
+  }
+}

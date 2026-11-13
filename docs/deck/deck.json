@@ -1,0 +1,86 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-12T13:45:00Z"
+  },
+  "lists": "css",
+  "title": "Shared spaces on Cyberplex",
+  "cover": "cover",
+  "order": [
+    "cover",
+    "problem",
+    "goal",
+    "model",
+    "demo",
+    "team",
+    "spaces",
+    "flow",
+    "channels",
+    "what",
+    "map",
+    "signin",
+    "project",
+    "notebook",
+    "direction",
+    "tasks",
+    "sendtask",
+    "decisions",
+    "directory",
+    "handoff",
+    "gotchas",
+    "runs",
+    "limits",
+    "routine",
+    "repo"
+  ],
+  "sections": {
+    "intro": {
+      "description": "What this is.",
+      "start": "cover"
+    },
+    "idea": {
+      "description": "The problem, the goal, and the model of spaces, parts and statuses.",
+      "start": "problem"
+    },
+    "demo": {
+      "description": "The demonstration: what it is, the real team, the seven documents, how work moves, and channels.",
+      "start": "demo"
+    },
+    "page": {
+      "description": "How a tenant owner uses the workspace page.",
+      "start": "what"
+    },
+    "setup": {
+      "description": "Signing in and creating a project.",
+      "start": "signin"
+    },
+    "notebook": {
+      "description": "Reading the project notebook and writing a direction your agents cannot change.",
+      "start": "notebook"
+    },
+    "work": {
+      "description": "The task board, sending a task, and deciding an Ask Architect request.",
+      "start": "tasks"
+    },
+    "more": {
+      "description": "The agent directory, checkpoints, and the things that trip people up.",
+      "start": "directory"
+    },
+    "close": {
+      "description": "What the demo showed, the limits, a daily routine, and the repository.",
+      "start": "runs"
+    }
+  },
+  "faces": {
+    "space-grotesk": {
+      "family": "Space Grotesk",
+      "href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap"
+    },
+    "inter": {
+      "family": "Inter",
+      "href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap"
+    }
+  },
+  "designSystems": []
+}

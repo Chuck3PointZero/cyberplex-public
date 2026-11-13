@@ -1,0 +1,199 @@
+{
+  "_comment": "The shared spaces: one Cyberplex collaboration project each. Exactly one owner per space. readers is a list of agents, or \"*\" for every agent listed under agents. decision_requesters may ask the tenant owner for a decision in that space. Project ids are NOT here: they go in spaces.local.json at the repository root (git-ignored). Read by server/proxy/proxy.py; agents never pass a project id. guide: what belongs in the document; agents get it from spaces_list and space_read. dispatchers: script agents allowed to call waiting_by_agent.",
+  "dispatchers": [
+    "team-dispatcher"
+  ],
+  "agents": {
+    "virtual-cto": {
+      "description": "Chief technology officer of the team. Owns the roadmap and the owner desk.",
+      "skills": [
+        "chief-technology-officer"
+      ]
+    },
+    "program-manager": {
+      "description": "Engineering program manager. Owns the work queue and turns approved work into tasks.",
+      "skills": [
+        "engineering-program-manager"
+      ]
+    },
+    "architect": {
+      "description": "Principal architect. Owns the technology baseline and the tech-debt list.",
+      "skills": [
+        "principal-architect"
+      ]
+    },
+    "eng-director": {
+      "description": "Director of engineering. Reports on delivery.",
+      "skills": [
+        "director-of-engineering"
+      ]
+    },
+    "security-lead": {
+      "description": "Head of security and reliability. Owns the risk register.",
+      "skills": [
+        "head-of-security-and-reliability"
+      ]
+    },
+    "operations-manager": {
+      "description": "Operations manager. Owns the operations log.",
+      "skills": [
+        "operations-manager"
+      ]
+    },
+    "finops-lead": {
+      "description": "FinOps manager. Owns the spend document.",
+      "skills": [
+        "finops-manager"
+      ]
+    },
+    "software-engineer": {
+      "description": "Software engineer. Implements approved work.",
+      "skills": [
+        "software-engineer"
+      ]
+    },
+    "deploy-sentinel": {
+      "description": "Deploy watch script. Reads only.",
+      "skills": [
+        "deploy-watch"
+      ]
+    },
+    "team-dispatcher": {
+      "description": "Work dispatch script. Reads only.",
+      "skills": [
+        "work-dispatch"
+      ]
+    }
+  },
+  "spaces": {
+    "owner-desk": {
+      "title": "Owner desk",
+      "objective": "What the tenant owner has asked of the team, what the team is asking the owner, and where things stand in a few lines. The owner's directions are the accepted entries.",
+      "owner": "virtual-cto",
+      "contributors": [
+        "program-manager"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "One entry per open item between the team and the tenant owner: what was asked, by whom, and where it stands. Questions: what the team needs answered. The owner's directions are the accepted entries; do not restate them. Keep it under 15 entries and remove an item when it is closed."
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "objective": "Goals, milestones and their dates; what is planned next and why.",
+      "owner": "virtual-cto",
+      "contributors": [
+        "architect",
+        "eng-director",
+        "program-manager"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "One entry per milestone: its name, target date, state (on track, at risk, late, done) and the one thing it depends on. Constraints: fixed dates and limits. No task-level detail."
+    },
+    "work-queue": {
+      "title": "Work queue",
+      "objective": "Approved work: what is in progress, who has it, and what is blocked. Work is handed over as tasks addressed to a role.",
+      "owner": "program-manager",
+      "contributors": [
+        "virtual-cto",
+        "architect",
+        "eng-director",
+        "security-lead",
+        "operations-manager",
+        "finops-lead",
+        "software-engineer"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto",
+        "program-manager"
+      ],
+      "guide": "One entry per approved work item in progress: record id, who has it, its state, and the blocker if any. Hand work over as tasks, not entries. Remove an entry when the work is verified done."
+    },
+    "architecture": {
+      "title": "Architecture",
+      "objective": "The technology baseline, the tech-debt list and the architecture decisions in force.",
+      "owner": "architect",
+      "contributors": [
+        "eng-director",
+        "security-lead",
+        "software-engineer"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "The baseline in a few facts (runtime, data store, deploy path); each architecture decision in force with its ADR number; each tech-debt item with severity and next step."
+    },
+    "risk-register": {
+      "title": "Risk register",
+      "objective": "Open risks and vulnerabilities, each with an owner and a next step.",
+      "owner": "security-lead",
+      "contributors": [
+        "architect",
+        "operations-manager",
+        "virtual-cto"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "One entry per open risk: what could happen, severity (low, medium, high, critical), the evidence, the owning role, and the next step with a date. Remove it when closed. Never record a secret or exploit detail."
+    },
+    "operations": {
+      "title": "Operations",
+      "objective": "The running state of the service: outages, sign-ups, and mail that needs an answer.",
+      "owner": "operations-manager",
+      "contributors": [
+        "security-lead",
+        "finops-lead"
+      ],
+      "readers": "*",
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "The service state (up, degraded or down, and since when); open incidents; sign-ups awaiting action; mail awaiting an answer. Counts and states only, no personal data."
+    },
+    "finance": {
+      "title": "Finance",
+      "objective": "Spend against budget and anything unusual.",
+      "owner": "finops-lead",
+      "contributors": [
+        "virtual-cto",
+        "operations-manager"
+      ],
+      "readers": [
+        "program-manager",
+        "eng-director",
+        "architect",
+        "security-lead",
+        "team-dispatcher"
+      ],
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "Month-to-date spend against budget; each line over budget; each anomaly with its amount and suspected cause. Numbers come from the spend ledger."
+    },
+    "collab-test": {
+      "title": "Collaboration test",
+      "objective": "A space for testing the collab-space tool. Nothing in it is real work. Safe to ignore.",
+      "owner": "virtual-cto",
+      "contributors": [
+        "program-manager",
+        "security-lead"
+      ],
+      "readers": [
+        "architect",
+        "team-dispatcher"
+      ],
+      "decision_requesters": [
+        "virtual-cto"
+      ],
+      "guide": "A test space. Anything may be written here; nothing in it is real work."
+    }
+  }
+}

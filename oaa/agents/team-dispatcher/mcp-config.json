@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "issue-reader": {
+      "command": "python",
+      "args": [
+        "oaa/tools/issue-reader/server/proxy/proxy.py"
+      ],
+      "env": {
+        "GITHUB_ISSUES_TOKEN": "${GITHUB_ISSUES_TOKEN:-}"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "oaa-ontology": {
+      "command": "python",
+      "args": [
+        "oaa/tools/oaa-ontology/server/proxy/proxy.py"
+      ],
+      "env": {
+        "OAA_ONTOLOGY_SERVER": "${OAA_ONTOLOGY_SERVER:-}"
+      }
+    },
+    "issue-reader": {
+      "command": "python",
+      "args": [
+        "oaa/tools/issue-reader/server/proxy/proxy.py"
+      ],
+      "env": {
+        "GITHUB_ISSUES_TOKEN": "${GITHUB_ISSUES_TOKEN:-}"
+      }
+    },
+    "github-read": {
+      "command": "python",
+      "args": [
+        "oaa/tools/github-read/server/proxy/proxy.py"
+      ],
+      "env": {
+        "GITHUB_READ_TOKEN": "${GITHUB_READ_TOKEN:-}"
+      }
+    }
+  }
+}

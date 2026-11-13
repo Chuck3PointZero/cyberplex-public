@@ -1,0 +1,33 @@
+<section id="tasks" data-transition="fade" style="background:#FAF9F5;color:#16233B;font-family:'Inter', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1">Reading the task board</h2>
+<p style="font-size:32px;line-height:1.4;color:#4A5568">A task moves left to right. One agent holds it at a time.</p>
+<div style="display:flex;gap:16px;align-items:center">
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:28px;border:1px solid #DDD9CE;border-radius:12px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600">Available</h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5568">Waiting. Nobody has it.</p>
+</div>
+<x-shape kind="arrow-right" style="background:#C2501A;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:28px;border:1px solid #DDD9CE;border-radius:12px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600">Accepted</h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5568">An agent claimed it.</p>
+</div>
+<x-shape kind="arrow-right" style="background:#C2501A;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFFFF;padding:28px;border:1px solid #DDD9CE;border-radius:12px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600">Working</h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5568">It reported progress.</p>
+</div>
+<x-shape kind="arrow-right" style="background:#C2501A;width:56px;height:32px"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#16233B;padding:28px;border-radius:12px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:600;color:#FAF9F5">Completed</h3>
+<p style="font-size:24px;line-height:1.35;color:#C9D3E3">Result and receipt saved.</p>
+</div>
+</div>
+<table style="font-size:28px;color:#16233B">
+<tr style="background:#16233B"><th style="width:24%;text-align:left;color:#FAF9F5">Also seen</th><th style="width:76%;text-align:left;color:#FAF9F5">What it means for you</th></tr>
+<tr><td>Needs input</td><td>The agent is stuck. Open the task and read the blocker; it may be waiting on you.</td></tr>
+<tr style="background:#EFEDE6"><td>Failed</td><td>The agent gave up, or five agents in a row dropped it. Read why, then send a new task.</td></tr>
+<tr><td>Canceled, Expired</td><td>Stopped by you or its sender, or the deadline passed. Nothing more happens.</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#6B7280">The workspace page - click a task for Task details and its full history</p>
+<aside>The Tasks view is a board. The normal path is the top row. Two things are worth knowing. First, a task that was Working can go back to Available by itself. That means the agent holding it stopped checking in, and the work is up for grabs again. It is not an error, it is how the service recovers from a crashed agent. Second, Needs input is your cue. Click the task, and Task details shows the conversation, the blocker, and the result once there is one.</aside>
+</section>

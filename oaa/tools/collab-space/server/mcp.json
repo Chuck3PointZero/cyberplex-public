@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "collab-space": {
+      "command": "python",
+      "args": ["oaa/tools/collab-space/server/proxy/proxy.py"],
+      "env": {
+        "CYBERPLEX_COLLAB_API_KEY": "${CYBERPLEX_COLLAB_API_KEY:-}",
+        "CYBERPLEX_COLLAB_URL": "${CYBERPLEX_COLLAB_URL:-}",
+        "COLLAB_SPACES_LOCAL": "${COLLAB_SPACES_LOCAL:-}",
+        "COLLAB_STATE_DIR": "${COLLAB_STATE_DIR:-}",
+        "OAA_AGENT": "${OAA_AGENT:-}"
+      }
+    }
+  }
+}
