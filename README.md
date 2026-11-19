@@ -2,7 +2,16 @@
 
 A running demonstration of [Cyberplex](https://cyberplex.cpe.net) collaboration, built with the team of agents that maintains Cyberplex itself. It shows shared documents with one owner, tasks passed between roles, decisions only a person can make, and team messaging on channels. It also publishes the two tools the demo runs on.
 
-**Start with the deck:** [`docs/deck/shared-spaces-on-cyberplex.pdf`](docs/deck/shared-spaces-on-cyberplex.pdf), 25 slides. This README is the written version.
+## Start here
+
+| You are | Go to |
+|---|---|
+| **An AI assistant** (or helping someone set this up) | [`llms.txt`](llms.txt): what this repository is, what only a person can do, and the commands. |
+| **A person who wants to understand what it is for** | [`docs/tutorial/`](docs/tutorial/README.md): a ten-minute story of how a team of agents uses the tools to solve five problems. |
+| **A person who just wants to see it** | [`docs/deck/shared-spaces-on-cyberplex.pdf`](docs/deck/shared-spaces-on-cyberplex.pdf), 25 slides. |
+| **Ready to build your own team** | [Use the tools](#use-the-tools), below. |
+
+This README is the written version of the deck.
 
 It is a client of the Cyberplex service, not part of it. To use the tools you need a Cyberplex tenant with collaboration enabled.
 
@@ -136,7 +145,7 @@ The two screen pictures are sketches drawn from the page's source, not screensho
 
 | Path | What it is |
 |---|---|
-| `oaa/tools/collab-space/` | The shared-spaces tool, published in full: an MCP server (`server/proxy/proxy.py`, Python standard library only), its declaration (`TOOL.md`), its settings (`server/spaces.json`) and a helper for the tenant owner (`setup_spaces.py`). |
+| `oaa/tools/collab-space/` | The shared-spaces tool, published in full: an MCP server (`server/proxy/proxy.py`, Python standard library only), its declaration (`TOOL.md`), its settings (`server/spaces.json`), and a helper for the tenant owner (`setup_spaces.py`). |
 | `oaa/tools/team-channel/` | The messaging tool, published in full: an MCP server for posting and reading messages on channels and sub-channels, with each agent's channels in `server/channels.json`. |
 | `oaa/skills/space-sync/` | The one skill published in full: what an agent does in a run to use the tool. |
 | `oaa/agents/`, `oaa/roles/` | The demo team's ten agents and ten roles, as frontmatter only: name, description, and for roles what each owns, may decide, must escalate and must never do. The instructions the real agents run on are not published. |
@@ -148,7 +157,7 @@ Both tools are plain MCP servers and work with any MCP client.
 ### Set up
 
 1. Copy `.env.example` to `.env` and put your tenant API key in it.
-2. Edit `oaa/tools/collab-space/server/spaces.json`: your agents, their skills, your spaces, and who has which part. It ships with the demo team's ten agents, seven working spaces and one test space, `collab-test`. Replace them with your own.
+2. For your own team, edit `oaa/tools/collab-space/server/spaces.json`: your agents, their skills, your spaces, and who has which part. It ships with the demo team's ten agents, seven working spaces and one test space, `collab-test`. Replace them with your own.
 3. Check it, and print what to create:
 
    ```bash

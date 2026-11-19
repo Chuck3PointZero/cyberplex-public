@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="3. It wanted to do something risky">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4531d"/></marker></defs>
+<rect width="1200" height="675" fill="#faf8f4"/>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1a2540" text-anchor="start">3. It wanted to do something risky</text>
+<text x="40" y="100" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#5b6470" text-anchor="start">One exact action, approved by a person, used once. Approving records your answer. It does not do the thing.</text>
+<text x="40" y="654" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">Shared spaces on CyberPlex</text>
+<text x="34" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">AGENTS (call the tool)</text>
+<text x="334" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">CYBERPLEX (the record)</text>
+<text x="924" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">YOU (workspace page)</text>
+<rect x="30" y="156" width="270" height="214" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M30,170 a14,14 0 0 1 14,-14 h242 a14,14 0 0 1 14,14 v0 h-270 z" fill="#c4531d"/>
+<text x="48" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">CTO</text>
+<text x="48" y="211" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#c4531d" text-anchor="start">A NAMED REQUESTER</text>
+<text x="48" y="236" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">decision_request</text>
+<text x="48" y="256" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">  action, target,</text>
+<text x="48" y="276" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">  options, expiry</text>
+<text x="48" y="296" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start"></text>
+<text x="48" y="316" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">decision_use</text>
+<text x="48" y="336" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">  after you answer</text>
+<rect x="30" y="392" width="270" height="134" rx="14" fill="#fdf1ea" stroke="#c4531d" stroke-width="1.5"/>
+<text x="48" y="424" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#c4531d" text-anchor="start">Any other agent</text>
+<text x="48" y="448" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">decision_request:</text>
+<text x="48" y="467" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">refused. Not a requester.</text>
+<rect x="340" y="156" width="530" height="374" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="362" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">Ask Architect: one request</text>
+<rect x="362" y="206" width="486" height="114" rx="10" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="378" y="232" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#5b6470" text-anchor="start">Action</text>
+<text x="378" y="252" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1a2540" text-anchor="start">Rotate the staging database password now.</text>
+<text x="378" y="278" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Target: staging-db</text>
+<text x="378" y="300" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Options: Rotate now  /  Wait for the next window</text>
+<rect x="362" y="340" width="146" height="36" rx="18.0" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="435.0" y="362.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Pending</text>
+<line x1="510" y1="358" x2="528" y2="358" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="530" y="340" width="146" height="36" rx="18.0" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="603.0" y="362.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Approved</text>
+<line x1="678" y1="358" x2="696" y2="358" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="698" y="340" width="146" height="36" rx="18.0" fill="#c4531d" stroke="#c4531d" stroke-width="1.5"/>
+<text x="771.0" y="362.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Used once</text>
+<text x="362" y="408" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">decision_use before you answer</text>
+<text x="362" y="428" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">authorized: false</text>
+<text x="362" y="454" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">decision_use after you approve</text>
+<text x="362" y="474" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">authorized: true  +  use receipt</text>
+<text x="362" y="500" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#c4531d" text-anchor="start">decision_use again: same receipt, already_used: true</text>
+<line x1="300" y1="250" x2="340" y2="250" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<circle cx="320.0" cy="250.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="320.0" y="255.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<line x1="920" y1="300" x2="870" y2="300" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<circle cx="895.0" cy="300.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="895.0" y="305.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<line x1="300" y1="330" x2="340" y2="448" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<circle cx="320.0" cy="389.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="320.0" y="394.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<rect x="920" y="156" width="250" height="230" rx="14" fill="#1a2540" stroke="#1a2540" stroke-width="1.5"/>
+<text x="938" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start">You</text>
+<text x="938" y="211" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#f4a77a" text-anchor="start">TENANT OWNER</text>
+<text x="938" y="236" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Read the exact words.</text>
+<text x="938" y="256" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">You approve these</text>
+<text x="938" y="276" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">and nothing else.</text>
+<text x="938" y="296" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Approve exact action</text>
+<text x="938" y="316" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Reject request</text>
+<text x="938" y="336" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Request changes</text>
+<rect x="920" y="406" width="250" height="124" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="938" y="436" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1a2540" text-anchor="start">Ten-minute rule</text>
+<text x="938" y="458" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Asked to verify your email?</text>
+<text x="938" y="477" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Do it, reopen the request,</text>
+<text x="938" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">decide again.</text>
+<rect x="30" y="556" width="1140" height="64" rx="12" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="52" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1a2540" text-anchor="start">Approval is not execution.</text>
+<text x="327" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6470" text-anchor="start">The agent still has to carry out the action, and make it safe to retry.</text>
+</svg>
