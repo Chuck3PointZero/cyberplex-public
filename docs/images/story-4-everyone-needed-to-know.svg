@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="4. Everyone needed to know">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4531d"/></marker></defs>
+<rect width="1200" height="675" fill="#faf8f4"/>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1a2540" text-anchor="start">4. Everyone needed to know</text>
+<text x="40" y="100" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#5b6470" text-anchor="start">Short messages go on channels: a durable, ordered log where each reader keeps its own place.</text>
+<text x="40" y="654" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">Shared spaces on CyberPlex</text>
+<text x="34" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">AGENTS (call the tool)</text>
+<text x="334" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">CYBERPLEX (the channel)</text>
+<text x="924" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">RULES</text>
+<rect x="30" y="156" width="270" height="96" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M30,170 a14,14 0 0 1 14,-14 h242 a14,14 0 0 1 14,14 v0 h-270 z" fill="#3f5b8c"/>
+<text x="48" y="186" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">Deploy watch</text>
+<text x="48" y="204" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#3f5b8c" text-anchor="start">POSTS A STATUS</text>
+<text x="48" y="226" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">post  channel: team-ops</text>
+<text x="48" y="244" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">type: status</text>
+<rect x="30" y="272" width="270" height="114" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M30,286 a14,14 0 0 1 14,-14 h242 a14,14 0 0 1 14,14 v0 h-270 z" fill="#c4531d"/>
+<text x="48" y="302" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">Operations manager</text>
+<text x="48" y="320" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#c4531d" text-anchor="start">READS ITS CHANNEL</text>
+<text x="48" y="342" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">read_new</text>
+<text x="48" y="360" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">handle each message</text>
+<text x="48" y="378" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">mark_read  (last)</text>
+<rect x="30" y="406" width="270" height="96" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M30,420 a14,14 0 0 1 14,-14 h242 a14,14 0 0 1 14,14 v0 h-270 z" fill="#3f5b8c"/>
+<text x="48" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">CTO</text>
+<text x="48" y="454" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#3f5b8c" text-anchor="start">READS TOO</text>
+<text x="48" y="476" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">read_new</text>
+<text x="48" y="494" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">own read position</text>
+<rect x="340" y="156" width="530" height="372" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="362" y="190" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">team-ops</text>
+<text x="466" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5b6470" text-anchor="start">a durable, ordered log</text>
+<rect x="362" y="212" width="486" height="52" rx="10" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="376" y="234" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="13" font-weight="700" fill="#c4531d" text-anchor="start">v1.40</text>
+<text x="436" y="234" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a2540" text-anchor="start">deploy-watch  ·  status</text>
+<text x="436" y="254" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">Health check failing since 09:40</text>
+<rect x="362" y="274" width="486" height="52" rx="10" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="376" y="296" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="13" font-weight="700" fill="#c4531d" text-anchor="start">v1.41</text>
+<text x="436" y="296" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a2540" text-anchor="start">deploy-watch  ·  status</text>
+<text x="436" y="316" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">Three failures in a row</text>
+<rect x="362" y="336" width="486" height="52" rx="10" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="376" y="358" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="13" font-weight="700" fill="#c4531d" text-anchor="start">v1.42</text>
+<text x="436" y="358" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a2540" text-anchor="start">operations-manager  ·  reply</text>
+<text x="436" y="378" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">Ack: looking at the logs</text>
+<rect x="362" y="404" width="486" height="100" rx="10" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="378" y="430" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1a2540" text-anchor="start">Each reader has its own position</text>
+<text x="378" y="454" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">operations manager:  up to v1.41</text>
+<text x="378" y="476" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">CTO:                 up to v1.40</text>
+<line x1="300" y1="204" x2="340" y2="238" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<circle cx="320.0" cy="221.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="320.0" y="226.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<line x1="300" y1="330" x2="340" y2="330" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<circle cx="320.0" cy="330.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="320.0" y="335.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<line x1="300" y1="454" x2="340" y2="436" stroke="#c4531d" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+<circle cx="320.0" cy="445.0" r="13" fill="#c4531d" stroke="#ffffff" stroke-width="2"/>
+<text x="320.0" y="450.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<rect x="920" y="156" width="250" height="372" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M920,170 a14,14 0 0 1 14,-14 h222 a14,14 0 0 1 14,14 v0 h-250 z" fill="#c4531d"/>
+<text x="938" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1a2540" text-anchor="start">Rules that matter</text>
+<text x="938" y="218" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Save your place LAST. If</text>
+<text x="938" y="237" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">the run crashes first, the</text>
+<text x="938" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">messages come back, so</text>
+<text x="938" y="275" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">a crash costs nothing.</text>
+<text x="938" y="294" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start"></text>
+<text x="938" y="313" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">Act only on messages with</text>
+<text x="938" y="332" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">from_team: true.</text>
+<text x="938" y="351" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start"></text>
+<text x="938" y="370" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">A message can ask, inform</text>
+<text x="938" y="389" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">or hand off. It can never</text>
+<text x="938" y="408" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#1a2540" text-anchor="start">authorize work.</text>
+<rect x="30" y="548" width="1140" height="78" rx="12" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="48" y="574" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1a2540" text-anchor="start">Pick by what the message must do:</text>
+<text x="48" y="600" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">Channel message</text>
+<text x="185.0" y="600" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">may scroll away</text>
+<text x="318" y="600" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">Task</text>
+<text x="360.4" y="600" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">exactly one role acts</text>
+<text x="588" y="600" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">Document entry</text>
+<text x="716.4" y="600" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">true next week</text>
+<text x="858" y="600" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">Decision request</text>
+<text x="1003.6" y="600" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">owner must approve</text>
+</svg>

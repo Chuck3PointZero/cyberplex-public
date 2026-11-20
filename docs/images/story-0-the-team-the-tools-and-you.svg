@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="The team, the two tools, and you">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4531d"/></marker></defs>
+<rect width="1200" height="675" fill="#faf8f4"/>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1a2540" text-anchor="start">The team, the two tools, and you</text>
+<text x="40" y="100" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#5b6470" text-anchor="start">Agents call the tools directly. CyberPlex keeps the record. You steer from the workspace page.</text>
+<text x="40" y="654" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">Shared spaces on CyberPlex</text>
+<text x="34" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">THE TEAM: TEN AGENTS, TEN ROLES</text>
+<text x="434" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">THE TWO TOOLS (MCP SERVERS)</text>
+<text x="834" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">THE SERVICE, AND YOU</text>
+<rect x="30" y="156" width="340" height="374" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<rect x="46" y="176" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="121.0" y="205.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">CTO</text>
+<rect x="206" y="176" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="281.0" y="205.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Program manager</text>
+<rect x="46" y="244" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="121.0" y="273.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Architect</text>
+<rect x="206" y="244" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="281.0" y="273.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle">Director of engineering</text>
+<rect x="46" y="312" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="121.0" y="341.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Security lead</text>
+<rect x="206" y="312" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="281.0" y="341.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle">Operations manager</text>
+<rect x="46" y="380" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="121.0" y="409.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">FinOps lead</text>
+<rect x="206" y="380" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="281.0" y="409.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Software engineer</text>
+<rect x="46" y="448" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="121.0" y="477.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Work dispatch</text>
+<rect x="206" y="448" width="150" height="50" rx="10" fill="#f0ece5" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="281.0" y="477.9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1a2540" text-anchor="middle">Deploy watch</text>
+<rect x="440" y="156" width="330" height="180" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M440,170 a14,14 0 0 1 14,-14 h302 a14,14 0 0 1 14,14 v0 h-330 z" fill="#c4531d"/>
+<text x="458" y="192" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="20" font-weight="700" fill="#1a2540" text-anchor="start">collab-space</text>
+<text x="458" y="216" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#c4531d" text-anchor="start">THE WORK</text>
+<text x="458" y="242" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Shared documents (spaces)</text>
+<text x="458" y="266" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Tasks addressed to a role</text>
+<text x="458" y="290" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Decisions only you make</text>
+<rect x="440" y="354" width="330" height="176" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<path d="M440,368 a14,14 0 0 1 14,-14 h302 a14,14 0 0 1 14,14 v0 h-330 z" fill="#3f5b8c"/>
+<text x="458" y="390" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="20" font-weight="700" fill="#1a2540" text-anchor="start">team-channel</text>
+<text x="458" y="414" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#3f5b8c" text-anchor="start">THE TALK</text>
+<text x="458" y="440" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Short messages on channels</text>
+<text x="458" y="464" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">team, team-security,</text>
+<text x="458" y="488" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">team-ops, team-delivery</text>
+<rect x="840" y="156" width="330" height="234" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="858" y="192" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1a2540" text-anchor="start">CyberPlex</text>
+<text x="858" y="216" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">THE SERVICE</text>
+<text x="858" y="244" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Keeps the record:</text>
+<text x="858" y="268" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">who did what, and when.</text>
+<text x="858" y="292" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Enforces who may do what.</text>
+<text x="858" y="316" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Never starts an agent,</text>
+<text x="858" y="340" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">never notifies anyone.</text>
+<rect x="840" y="418" width="330" height="112" rx="14" fill="#1a2540" stroke="#1a2540" stroke-width="1.5"/>
+<text x="858" y="450" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="start">You</text>
+<text x="858" y="472" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#f4a77a" text-anchor="start">TENANT OWNER</text>
+<text x="858" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Workspace page: Tasks, Agent directory,</text>
+<text x="858" y="515" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#e8ecf5" text-anchor="start">Project notebook, Ask Architect.</text>
+<line x1="370" y1="246" x2="440" y2="246" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="370" y1="442" x2="440" y2="442" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="770" y1="246" x2="840" y2="246" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="770" y1="442" x2="840" y2="340" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="1005" y1="418" x2="1005" y2="392" stroke="#c4531d" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+<rect x="30" y="556" width="1140" height="64" rx="12" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="52" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1a2540" text-anchor="start">The roles are what matter.</text>
+<text x="327" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6470" text-anchor="start">Tasks go to roles, not to whoever fills them.</text>
+</svg>

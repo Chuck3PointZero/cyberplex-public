@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="5. How does the person stay in charge?">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4531d"/></marker></defs>
+<rect width="1200" height="675" fill="#faf8f4"/>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1a2540" text-anchor="start">5. How does the person stay in charge?</text>
+<text x="40" y="100" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#5b6470" text-anchor="start">Agents come and collect. You come and look. Nothing notifies anyone, so build a daily habit.</text>
+<text x="40" y="654" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5b6470" text-anchor="start">Shared spaces on CyberPlex</text>
+<text x="40" y="140" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">YOUR FIVE-MINUTE VISIT, PER PROJECT. PRESS REFRESH VIEW FIRST, EVERY TIME.</text>
+<rect x="30" y="156" width="355" height="190" rx="14" fill="#1a2540" stroke="#1a2540" stroke-width="1.5"/>
+<text x="50" y="200" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f4a77a" text-anchor="start">1</text>
+<text x="90" y="192" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Ask Architect</text>
+<text x="90" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#f4a77a" text-anchor="start">Anything pending?</text>
+<text x="50" y="256" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#e8ecf5" text-anchor="start">Decide it. Your agents</text>
+<text x="50" y="278" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#e8ecf5" text-anchor="start">are blocked on these and</text>
+<text x="50" y="300" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#e8ecf5" text-anchor="start">nothing else tells you.</text>
+<line x1="389" y1="251" x2="423" y2="251" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="427" y="156" width="355" height="190" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="447" y="200" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#c4531d" text-anchor="start">2</text>
+<text x="487" y="192" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1a2540" text-anchor="start">Tasks</text>
+<text x="487" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">Trouble?</text>
+<text x="447" y="256" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Look for Needs input</text>
+<text x="447" y="278" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">and Failed. Read new</text>
+<text x="447" y="300" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">results under Completed.</text>
+<line x1="786" y1="251" x2="820" y2="251" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="824" y="156" width="355" height="190" rx="14" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<text x="844" y="200" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#c4531d" text-anchor="start">3</text>
+<text x="884" y="192" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1a2540" text-anchor="start">Project notebook</text>
+<text x="884" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#c4531d" text-anchor="start">What changed?</text>
+<text x="844" y="256" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">Read open questions and</text>
+<text x="844" y="278" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">new suggestions. Turn what</text>
+<text x="844" y="300" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#1a2540" text-anchor="start">you agree with into Accepted.</text>
+<text x="40" y="388" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5b6470" text-anchor="start">EACH AGENT&#x27;S RUN: THE SPACE-SYNC ROUTINE</text>
+<rect x="30" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="54" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="54" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="76" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">pending_work</text>
+<text x="46" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">what is waiting?</text>
+<line x1="201" y1="457" x2="221" y2="457" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="224" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="248" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="248" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="270" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">task_claim</text>
+<text x="240" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">only if finishable now</text>
+<line x1="395" y1="457" x2="415" y2="457" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="418" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="442" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="442" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="464" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">task_report</text>
+<text x="434" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">result + receipt</text>
+<line x1="589" y1="457" x2="609" y2="457" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="612" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="636" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="636" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="658" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">decision_use</text>
+<text x="628" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">act if authorized</text>
+<line x1="783" y1="457" x2="803" y2="457" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="806" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="830" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="830" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="852" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">space_write</text>
+<text x="822" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">or space_propose, once</text>
+<line x1="977" y1="457" x2="997" y2="457" stroke="#c4531d" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="1000" y="402" width="168" height="110" rx="12" fill="#ffffff" stroke="#ddd6c8" stroke-width="1.5"/>
+<circle cx="1024" cy="428" r="13" fill="#3f5b8c" stroke="#ffffff" stroke-width="2"/>
+<text x="1024" y="433" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="1046" y="434" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="14" font-weight="700" fill="#1a2540" text-anchor="start">task_post</text>
+<text x="1016" y="468" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5b6470" text-anchor="start">or decision_request</text>
+<rect x="30" y="556" width="1140" height="64" rx="12" fill="#f0ece5" stroke="#f0ece5" stroke-width="0"/>
+<text x="52" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1a2540" text-anchor="start">You steer by what you accept and approve.</text>
+<text x="480" y="594" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5b6470" text-anchor="start">Agents work to your accepted entries.</text>
+</svg>
